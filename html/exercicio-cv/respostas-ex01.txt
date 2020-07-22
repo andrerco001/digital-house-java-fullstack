@@ -1,0 +1,41 @@
+Respostas:
+a) Se não salvássemos o documento com a extensão html, nós teriamos que abrir o documento específico ou procurá-lo na árvore de paths do browser.
+   A engine do browser interpreta o index como o arquivo principal, ou seja, primeiramente, ele sempre buscará um arquivo index.html
+
+b) 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf8">
+    </head>
+    <body>
+    </body>
+</html>
+
+c)
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV - André Oliveira</title>
+        <meta charset="utf8">
+    </head>
+    <body>
+    </body>
+</html>
+
+d) 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV - André Oliveira</title>
+        <meta charset="utf8">
+    </head>
+    <body>
+        Olá, mundo! Este é meu primeiro documento HTML.
+    </body>
+</html>
+
+- O texto é exibido na tela, no entanto, ele não aparece com o uso de qualquer tag html, o que impedirá sua formatação no document.
+
+

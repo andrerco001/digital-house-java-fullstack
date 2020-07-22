@@ -1,0 +1,115 @@
+/* Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(190, 242, 254);   
+}
+
+/* Container */
+.container{
+    background-color: transparent;
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Menu */
+#header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+ul li, a {
+    float: left;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+
+ul li > a:hover{
+    background-color: white;
+    color: rgb(238, 84, 51);
+}
+
+#menu{
+    background-color: rgb(238, 84, 51);
+    text-decoration: none;
+    width: 100%;
+}
+
+/* Section */
+.container-interno{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.container-interno > div{
+    flex: 1 1 300px;
+    margin: 10px;
+}
+
+.relative{
+    position: relative;
+    z-index: 0;
+}
+
+.nome-produto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+    background-color: dimgray;
+    width: 100%;
+    text-align: center;
+}
+
+.desconto{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 2;
+}
+
+.ver-mais{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, -10%);
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    z-index: 3;
+}
+
+.ver-mais:hover{
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: rgb(238, 84, 51);
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
