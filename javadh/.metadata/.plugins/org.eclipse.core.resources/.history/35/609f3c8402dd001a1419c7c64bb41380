@@ -1,0 +1,31 @@
+package com.andre.java;
+
+public abstract class Exercicios01 {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	
+	
+	
+	// Exercicio 01
+	public static void monstrarSalario() {
+		
+		int anoContratacao = 1995;
+		int anoFinal = 2015;
+		double salarioInicial = 1000.00;
+		double juros = 1.5;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

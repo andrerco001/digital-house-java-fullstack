@@ -1,0 +1,13 @@
+public class Exemplo {
+
+	public static void main(String[] args) {
+		
+		double valor = 50.00f;
+		
+		System.out.println(numero);
+		
+		
+
+	}
+
+}

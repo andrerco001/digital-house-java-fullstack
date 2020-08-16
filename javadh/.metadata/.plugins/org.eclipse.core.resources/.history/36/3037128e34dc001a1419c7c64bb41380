@@ -1,0 +1,13 @@
+public class Exemplo {
+
+	public static void main(String[] args) {
+		
+		long valor = 50L;
+		
+		System.out.println(valor);
+		
+		
+
+	}
+
+}

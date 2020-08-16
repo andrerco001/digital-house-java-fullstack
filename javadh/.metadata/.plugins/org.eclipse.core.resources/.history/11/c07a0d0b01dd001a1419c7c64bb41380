@@ -1,0 +1,24 @@
+package com.andre.java;
+
+public abstract class Exercicios01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+	
+	
+	// Exercicio 01
+	public static void monstrarSalario() {
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

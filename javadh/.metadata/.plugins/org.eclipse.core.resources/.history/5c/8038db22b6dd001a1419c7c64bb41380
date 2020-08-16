@@ -1,0 +1,36 @@
+package com.andre.java;
+
+public class Exercicios01 {
+
+	public static void main(String[] args) {
+		
+		Main.monstrarSalarioFuncionario();
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	// Exercicio 01
+	public static void monstrarSalarioFuncionario() {
+		
+		int anoAumentoSalario = 1996;
+		int anoFinal = 2015;
+		double salarioInicial = 1000.00;
+		double juros = 0.0015;
+		
+		salarioInicial *= juros + salarioInicial;
+		
+		for(int i = 1997; i <= anoFinal; i++) {
+			
+			juros *= 2;
+			salarioInicial *= juros + salarioInicial;
+		}
+		
+		System.out.println("Restultado final : " + salarioInicial);
+	}
+
+}

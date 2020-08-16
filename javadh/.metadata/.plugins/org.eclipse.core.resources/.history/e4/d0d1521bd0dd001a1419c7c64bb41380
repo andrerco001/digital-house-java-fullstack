@@ -1,0 +1,26 @@
+package com.andre.java;
+
+import java.util.Scanner;
+
+public class RecebeValores {
+	
+	
+	// doubleNuber = floatNumber;
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		int numero = 0;
+		String nome = null;
+		
+		System.out.println("Digite um numero");
+		numero = input.nextInt();
+		System.out.println("Numero : " + numero);
+		
+		System.out.println("Digite seu nome");
+		nome = input.next();
+		System.out.println("Nome : " + nome);
+		
+	}
+
+}

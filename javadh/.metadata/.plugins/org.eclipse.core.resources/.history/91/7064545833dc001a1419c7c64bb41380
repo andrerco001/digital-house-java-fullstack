@@ -1,0 +1,11 @@
+public class Exemplo {
+
+	public static void main(String[] args) {
+		
+		byte numero = 127;
+		
+		
+
+	}
+
+}

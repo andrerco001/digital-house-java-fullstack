@@ -1,0 +1,17 @@
+package com.andre.java;
+
+import java.util.Scanner;
+
+public class RecebeValores {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		int numero = 0;
+		String nome = null;
+		
+		
+
+	}
+
+}
